@@ -6,6 +6,8 @@ import org.springframework.web.bind.annotation.*;
 import java.util.HashMap;
 import java.util.Map;
 
+import static java.util.Objects.isNull;
+
 
 @Controller
 public class UsersController {
